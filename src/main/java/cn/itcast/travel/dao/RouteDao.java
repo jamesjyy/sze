@@ -21,5 +21,5 @@ public interface RouteDao {
      * @param rid
      * @return
      */
-    public Route findOne(int rid);
+    public Route findOne(int  rid);
 }
