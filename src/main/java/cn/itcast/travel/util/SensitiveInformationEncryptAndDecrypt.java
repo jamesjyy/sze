@@ -19,8 +19,7 @@ import java.util.Map;
  * 
  * 敏感信息加密解密
  * 	生成update sql脚本 方法   
- * @version </pre>
- */
+ * @version </pre>葛镇宇 */
 public class SensitiveInformationEncryptAndDecrypt {
 	/**
 	 * 	生成update sql 方法
@@ -77,7 +76,7 @@ public class SensitiveInformationEncryptAndDecrypt {
             	sql = "select ID id,IDNO idno,IDDOC_NAME name from "+tables.trim();
             	//创建prepareStatement
     			pst = con.prepareStatement(sql);
-                //3.ResultSet类，用来存放获取的结果集！！
+                //3.ResultSet类，用来存放获取的结果集！！！
                 rs = pst.executeQuery();
                 while(rs.next()){
                 	Map paramMap = new HashMap<>();
